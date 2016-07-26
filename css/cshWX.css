@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*广告*/
+.swiper-container {
+	width: 100%;
+	height: 160px;
+	margin-top: 45px;
+	position: relative;
+}
+.pagination {
+	position: absolute;
+	z-index: 20;
+	bottom: 10px;
+	width: 66px;
+	text-align: center;
+	right: 0;
+}
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+#banner img {
+	max-width: 100%;
+}
+/*天气*/
+.weather {
+	height: 40px;
+	background-color: #C00;
+}
+/*热点功能*/
+.hotspot {
+	display: inline-block;
+	width: 100%;
+	height: 190px;
+}
+.hotspot li {
+	display: block;
+	width: 25%;
+	height: 50%;
+	float: left;
+}
+.hotspot li a {
+	display:block;
+	color: #7d7d7d;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.hotspot li div{
+	width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto 5px;
+	position: relative;
+}
+
+.hotspot li div:after{
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.fishicon{
+	background-color:#39F;
+}
+
+.fishicon:after{
+	background:url(../imgs/icon/fishicon.png) no-repeat;
+	background-size:28px 16px;
+	width: 28px;
+    height: 16px;
+	content:'';
+}
+
+.restaurant{
+	background-color:#F93;
+}
+
+.restaurant:after{
+	background:url(../imgs/icon/restaurant.png) no-repeat;
+	background-size:32px 32px;
+	width: 32px;
+    height: 32px;
+	content:'';
+}
+
+.disable{
+	background-color:#999;
+}
+
+.disable:after{
+	content:'?';
+	font-size:20px;
+	color:#CCC;
+	height:30px;
+	width:30px;
+}
+
+/**频道栏**/
+footer {
+    font-size: 12px;
+    line-height: 47px;
+    background-color: #f6f6f6;
+	color: #7d7d7d;
+	text-align:center;
+}
+
