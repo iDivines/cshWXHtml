@@ -39,9 +39,7 @@
 }
 
 .jd_detail_info{
-	margin:10px 0px 10px 10px;
-	padding-bottom:10px;
-	border-bottom:1px solid #CCCCCC;;
+	padding:10px;
 }
 
 .jd_detail_info .title{
@@ -58,14 +56,32 @@
     color: #88888d;
 }
 
-.jd_label img{
-	width:32px;
-	height:32px;
+.jd_label{
+	margin-top:10px;
+	padding:5px;
+}
+
+.jd_label_item img{
+	width:20px;
+	height:20px;
+	display:block;
+	margin:0 auto 5px;
+}
+
+.jd_label_item{
+	padding:5px 20px;
+	display:inline-block;
+	font-size:12px;
+
+}
+
+div{
+	background-color:#FFF;
 }
 </style>
 </head>
-<body>
-<header><a href="index.html" class="left icon_back"><img src="imgs/icon/back.png"></a><div class="title">详情</div></header>
+<body style="background-color:#EEEEEE;">
+<header><a href="index.html" class="left icon_back"><img src="imgs/icon/back.png"></a><section class="title">详情</section></header>
 <section> 
 <!--图集-->
   <div class="detail_images">
@@ -80,11 +96,22 @@
   <p class="description">长寿湖老字号酒楼，环境干净整洁，味道正宗</p>
 </div>
 <div class="jd_label">
-  <img src="imgs/icon/locationIcon.png">
-  <img src="imgs/icon/telephoneIcon.png">
-  <img src="imgs/icon/wifiIcon.png">
-  <img src="imgs/icon/parkingIcon.png">
-  <img src="imgs/icon/hotelIcon.png">
+  <div class="jd_label_item">
+    <img src="imgs/icon/location.png">
+    <span>定位</span>
+  </div>
+  <div class="jd_label_item">
+    <img src="imgs/icon/telephone.png">
+    <span>电话</span>
+  </div>
+  <div class="jd_label_item">
+    <img src="imgs/icon/wifi.png">
+    <span>WIFI</span>
+  </div>
+  <div class="jd_label_item">
+    <img src="imgs/icon/park.png">
+    <span>停车</span>
+  </div>
 </section>
 </body>
 </html>
