@@ -4,8 +4,9 @@
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
+	-webkit-box-sizing:border-box; /* Safari */
+	-moz-box-sizing:border-box; /* Firefox */
+	box-sizing:border-box;
 }
 
 a{text-decoration:none;}
@@ -110,7 +111,7 @@ header .title{
 .info_list li{
 	display:inline-block;
 	list-style:none;
-	padding:10px;
+	padding:10px 10px 2px;
 	border-bottom: 1px solid #eee;
 	width:100%;
 }
@@ -147,6 +148,7 @@ header .title{
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	font-size:13px;
+	line-height:15px;
 }
 
 .text_body .product_title {

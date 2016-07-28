@@ -88,9 +88,9 @@
 
 .fishicon:after{
 	background:url(../imgs/icon/fishicon.png) no-repeat;
-	background-size:28px 16px;
-	width: 28px;
-    height: 16px;
+	background-size:32px 32px;
+	width: 32px;
+    height: 32px;
 	content:'';
 }
 
@@ -100,6 +100,18 @@
 
 .restaurant:after{
 	background:url(../imgs/icon/restaurant.png) no-repeat;
+	background-size:32px 32px;
+	width: 32px;
+    height: 32px;
+	content:'';
+}
+
+.map{
+	background-color:#9C0;
+}
+
+.map:after{
+	background:url(../imgs/icon/map.png) no-repeat;
 	background-size:32px 32px;
 	width: 32px;
     height: 32px;
