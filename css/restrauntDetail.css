@@ -1,14 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-
-body{
-	background-color:#EEEEEE;
-}
-
-#rest_main_content div{
-	background-color:#FFF;
-}
-
 .rest_detail_images{
 	width:100%;
 	height:160px;
@@ -53,7 +44,7 @@ body{
 }
 
 .rest_label{
-	margin-top:10px;
+	border-top:10px solid #eeeeee;
 	padding:5px;
 }
 
