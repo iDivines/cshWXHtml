@@ -23,11 +23,14 @@ html, body, #allmap{width: 100%; height: 100%;}
 </body>
 </html>
 <script type="text/javascript">
-	// 百度地图API功能
-	var map = new BMap.Map("allmap");    // 创建Map实例
-	map.centerAndZoom(new BMap.Point(107.243,29.902), 16);  // 初始化地图,设置中心点坐标和地图级别
-	map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
-	map.setCurrentCity("长寿湖镇");          // 设置地图显示的城市 此项是必须设置的
+     // 百度地图API功能
+     var map = new BMap.Map("allmap");
+     var point = new BMap.Point(107.2496,29.9086);
+     map.centerAndZoom(point, 18);
+     var marker = new BMap.Marker(point);  // 创建标注
+     map.addOverlay(marker);              // 将标注添加到地图中
+     var label = new BMap.Label("朱二嫂酒楼",{offset:new BMap.Size(20,-10)});
+     marker.setLabel(label);
 	var styleJson = [
           {
                     "featureType": "road",

@@ -35,7 +35,7 @@
 	align-items: center;
 }
 #banner img {
-	max-width: 100%;
+	width: 100%;
 }
 /*天气*/
 .weather {
